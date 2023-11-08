@@ -93,3 +93,51 @@ http
 
     console.log(`Nodejs server started on port ${port}`);
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // app.get("/todos", (req, res) => {
+//   res.send(todoList);
+// });
+
+// app.post("/todos", (req, res) => {
+//   const { name } = req.body;
+//   if (name) {
+//     todoList.push(name);
+//     res.status(201).send();
+//   } else {
+//     res.status(400).send("Bad Request: Name is required in the request body.");
+//   }
+// });
+
+// app.delete("/todos", (req, res) => {
+//   let del = false;
+//   let { name } = req.body;
+//   for (let i = todoList.length - 1; i >= 0; i--) {
+//     if (todoList[i] === name) {
+//       todoList.splice(i, 1);
+//       del = true;
+//     }
+//   }
+//   if (del) {
+//     res.status(204).send();
+//   } else {
+//     res.status(500).send();
+//   }
+// });
+
+// app.all("/todos", (request, response) => {
+//   response.status(501).send();
+// });
