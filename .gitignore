@@ -1,0 +1,19 @@
+node_modules/
+node_modules
+.env
+
+
+
+
+
+
+
+
+
+# db.reservations.insertMany([{ "reservation_id" : "A06453A1D", "city" : "London", "starts_at" : "2029-06-18T20:13:58", "ends_at" : "2020-06-28T20:13:58" },{ "reservation_id" : "A492A55CE", "city" : "London", "starts_at" : "2020-06-18T20:13:58", "ends_at" : "2020-06-27T20:13:58" },{ "reservation_id" : "A06453A1D", "city" : "London", "starts_at" : "2028-06-18T20:13:58", "ends_at" : "2020-06-28T20:13:58" },{ "reservation_id" : "A492A55CE", "city" : "London", "starts_at" : "2020-06-18T20:13:58", "ends_at" : "2020-06-27T20:13:58" }])
+
+# db.reservations.insert({ "reservation_id" : "A492A55CE", "city" : "London", "starts_at" : "2020-06-18T20:13:58", "ends_at" : "2020-06-27T20:13:58" })
+
+# db.reservations.insert({ "reservation_id" : "A06453A1D", "city" : "London", "starts_at" : "2028-06-18T20:13:58", "ends_at" : "2020-06-28T20:13:58" })
+
+# db.reservations.insert({ "reservation_id" : "A492A55CE", "city" : "London", "starts_at" : "2020-06-18T20:13:58", "ends_at" : "2020-06-27T20:13:58" })
